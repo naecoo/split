@@ -1,0 +1,39 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 12vh;
+}
+.footer {
+  text-align: center;
+}
+.box-container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 50%;
+  height: 50%;
+}
+.box {  
+  display: inline-block;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  box-shadow: 1px 2px 5px #888888;
+  background-color: darkcyan;
+  cursor: pointer;
+}
+

@@ -1,1 +1,1 @@
-ball split
+ball split, view in [here](https://github.com/naecoo/split/settings)

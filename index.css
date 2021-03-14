@@ -13,6 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
   width: 500px;
   height: 500px;
   margin: 0 auto;
@@ -21,9 +22,13 @@ body {
 .footer {
   text-align: center;
 }
+.origin {
+  animation-duration: 0;
+}
 .box-container {
   display: flex;
   flex-flow: row wrap;
+  position: relative;
   width: 50%;
   height: 50%;
 }
@@ -35,5 +40,17 @@ body {
   box-shadow: 1px 2px 5px #888888;
   background-color: darkcyan;
   cursor: pointer;
+  animation: fade .5s ease-out;
+}
+
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
